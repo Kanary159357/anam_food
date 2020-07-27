@@ -5,11 +5,11 @@ const TitleText = styled.div`
     font-size: 3rem;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 700;
-    margin-left: 10rem;
+    margin-bottom: 3rem;
 `;
 
 const Title = (props) => {
-return <TitleText>{props.title}</TitleText>
+    return <TitleText>{ props.title }</TitleText>
 }
 
 export default Title;
